@@ -140,7 +140,13 @@ Process all images in a directory:
 python main.py --input data/raw/ --output data/output/batch_results.csv --batch
 ```
 
-### Python API
+
+### Jupyter Notebook
+
+* Run the notebooks "driving_license_ocr.ipynb" or "driving_license_ocr_simple.ipynb" in the notebooks/ folder.
+
+
+### Python API (Untested)
 
 ```python
 from src.pipeline.processor import process_single_image
