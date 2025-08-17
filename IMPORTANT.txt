@@ -1,0 +1,3 @@
+1. View the notebooks section (Interactive window output images available in the directory) - If the notebook doesn't run, ensure the python library versions are compatible.
+
+2. CLI output data can be viewed in the data/output folder.

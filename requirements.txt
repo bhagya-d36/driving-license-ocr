@@ -1,0 +1,18 @@
+# Core dependencies
+opencv-python==4.12.0.88
+numpy==2.2.6
+pandas==2.3.1
+
+# Image processing
+matplotlib==3.10.5
+pillow==11.3.0
+
+# OCR engines
+pytesseract==0.3.13
+paddleocr==2.10.0
+paddlepaddle==2.6.2
+
+# Utils
+tqdm==4.67.1
+ipywidgets==8.1.7
+

@@ -1,0 +1,63 @@
+# OCR Driving License Configuration
+
+# General settings
+general:
+  debug: false
+  verbose: false
+  log_level: INFO
+  
+# Image preprocessing
+image:
+  resize_width: 1600
+  resize_height: 1200
+  maintain_aspect_ratio: true
+
+# OCR Engines
+ocr:
+  primary_engine: "paddleocr"  # Options: "paddleocr", "tesseract"
+  tesseract:
+    executable_path: "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+    language: "eng"
+    config: "--psm 6"
+  paddleocr:
+    language: "en"
+    use_angle_cls: true
+    enable_mkldnn: true
+    det_db_thresh: 0.3
+    det_db_box_thresh: 0.6
+
+# Vehicle class extraction
+extraction:
+  valid_classes:
+    - A1
+    - A
+    - B1
+    - B
+    - C1
+    - C
+    - CE
+    - D1
+    - D
+    - DE
+    - G1
+    - G
+    - J
+  
+  # Date validation
+  date:
+    min_year: 1990
+    max_year: 2040
+    expiry_calculation:
+      enabled: true
+      years_to_add: 8
+      min_start_year: 2012
+    date_formats:
+      - "%d.%m.%Y"
+      - "%d-%m-%Y"
+      - "%d/%m/%Y"
+
+# Output settings
+output:
+  csv:
+    enabled: true
+    path: "data/output/license_
