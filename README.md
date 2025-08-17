@@ -88,13 +88,13 @@ cd path\to\your\folder\driving-license-ocr-main
 python -m venv venv
 ```
 
+* On Windows
 ```bash
-# On Windows
 venv\Scripts\activate
 ```
 
+* On macOS/Linux
 ```bash
-# On macOS/Linux
 source venv/bin/activate
 ```
 
@@ -116,11 +116,13 @@ sudo apt install tesseract-ocr
 brew install tesseract
 ```
 
+
 ### Step 4: Install Python dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## Usage
 
