@@ -69,11 +69,17 @@ The exploratory folder includes past versions of pipelines, EDA, preprocessing, 
 - Python 3.11.9 or higher
 - Tesseract OCR installed on your system
 
-### Step 1: Clone the repository
+### Step 1: Clone the repository / Unzip the downloaded folder
 
+#### For cloned repo
 ```bash
 git clone https://github.com/yourusername/driving-license-ocr.git
 cd driving-license-ocr
+```
+
+#### For downloaded and extracted/unzipped folder
+```bash
+cd path\to\your\folder\driving-license-ocr-main
 ```
 
 ### Step 2: Create a virtual environment (strongly recommended)
