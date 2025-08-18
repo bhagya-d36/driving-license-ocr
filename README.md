@@ -73,7 +73,7 @@ The exploratory folder includes past versions of pipelines, EDA, preprocessing, 
 
 #### For cloned repo
 ```bash
-git clone https://github.com/yourusername/driving-license-ocr.git
+git clone https://github.com/bhagya-d36/driving-license-ocr.git
 cd driving-license-ocr
 ```
 
